@@ -1,6 +1,6 @@
-from fetch_data import fetch_data
+import fetch_data
 from feature_engineering import add_features
-from train_model import train_model
+import train_model 
 from backtest import backtest
 
 symbol = "COCHINSHIP.NS"
